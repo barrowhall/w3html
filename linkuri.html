@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Links </title>
+            <style>
+                a:link, a:visited {
+                background-color: #f44336;
+                color: black;
+                padding: 2px 25px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                }
+
+                a:hover, a:active {
+                background-color: pink;
+                }
+
+                h4 {
+                    background-color: #1653d6;
+                    color: black;
+                    padding: 2px 25px;
+                    text-align: center;
+                    text-decoration: none;
+                    display: inline-block;
+                }
+
+                img {
+                width: 100%;
+                }
+</style>
+    </head>
+
+    <body>
+        <a href="mailto:costel@costel.com" style="text-decoration:none">Send email to costel</a>
+        <br>
+        <h4>hello</h4>
+
+
+        <p><img src="honda-jazz.png" alt="Honda" style="float:right; width:100px; height:100px;"> The image will float to the right of the text.</p>
+        
+        <p><img src="honda-jazz.png" alt="Honda" style="float:left; width:100px; height:100px;"> The image will float to the left of the text.</p>
+<!-- 
+
+        <img src="honda-jazz.png" alt="HTML5 Icon" width="128" height="128">
+
+        <img src="honda-jazz.png" alt="HTML5 Icon" style="width:128px;height:128px;">  -->
+
+        <br>
+        <hr>
+        <h3 style="text-align:center; font-size: 25px;">Playing wiht images</h3>
+
+        <div style="text-align:center; background-image: url('entrance.jpg'); background-repeat:no-repeat; background-attachment:fixed; background-size:cover">
+            <img src="workplace.jpg" alt="Workplace" usemap="#workmap" style="width:400px; height:400px;">
+
+            <map name="workmap">
+                <area shape="rect" coords="34, 44, 270, 350" href="one.html" onclick="laptop()">
+                <area shape="circle" coords="337, 300, 44" href="two.html" onclick="coffee()">
+                <area shape="phone" coords="290, 172, 333, 250" href="three.html" onclick="phone()">
+
+            </map>
+            <script>
+                function laptop() {
+                    alert("You clicked the LAPTOP !!!")
+                }
+            </script>
+
+            <script>
+                function coffee() {
+                    alert("You clicked the COFFEE !!!")
+               
+            </script>
+
+            <script>
+                function phone() {
+                    alert("You clicked the PHONE !!!")
+                }
+            </script>
+
+        </div>
+
+
+
+    </body>
+
+</html>
+
+
+
