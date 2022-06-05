@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<header>
+    <style>
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333333;
+        }
+
+        li {
+            float:left;
+        }
+
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 16px;
+            text-decoration: none;
+        }
+
+        li a:hover {
+            background-color: #111111;
+        }
+        
+        .note {
+            font-size: 120%;
+            color: red;
+        }
+    </style>
+
+</header>
+
+<body>
+    <ul>
+        <li><a href="#home">Home</a></li>
+
+        <li><a href="#news">News</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#about">About</a></li>
+    </ul>
+
+    <div>
+        <h1 My <span class="note">Important</span> Heading</h1>
+        <p>This is some <span class="note">important</span> text.</p>
+    </div>
+    <!-- <iframe src="linkuri.html" height="500" width="800" style="border:2px solid red;" title="Linkuri HTML"></iframe> -->
+
+    <iframe src="demo_iframe.htm" name="iframe_a" title="Iframe Example"></iframe>
+    <p><a href="https://www.w3schools.com" target="iframe_a">Pagina de la W3Schools </a></p>
+
+
+
+    <p id="demo">Hi.</p>
+
+    <script>
+        document.getElementById("demo").innerHTML = "Hello World";
+    </script>
+
+
+</body>
+
+</html>
